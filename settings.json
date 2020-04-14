@@ -1,0 +1,76 @@
+{
+
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "workbench.colorTheme": "Horizon Bold",
+    "editor.renderWhitespace": "all",
+    "workbench.startupEditor": "newUntitledFile",
+    "vim.useCtrlKeys": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "beautify.config": {
+        "space_after_anon_function": true,
+        "brace_style": "collapse,preserve-inline",
+    },
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Operator Mono'",
+    "editor.renderIndentGuides": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/.stencil": true
+    },
+    "window.menuBarVisibility": "toggle",
+    "window.newWindowDimensions": "inherit",
+    "search.quickOpen.includeSymbols": true,
+    "materialTheme.fixIconsRunning": false,
+    "editor.folding": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontSize": 15,
+    "editor.minimap.maxColumn": 90,
+    "editor.minimap.renderCharacters": false,
+    "editor.fontWeight": "300",
+    "workbench.tree.horizontalScrolling": true,
+    "breadcrumbs.enabled": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.referencesCodeLens.enabled": true,
+    "sync.gist": "",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.codeLens": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "[html]": {
+        "editor.defaultFormatter": "stringham.angular-template-formatter"
+    },
+    "scssFormatter.tabWidth": 4,
+    "workbench.colorCustomizations": {
+        "[Horizon Bold]": {
+            "activityBar.foreground": "#c892fa",
+            "activityBarBadge.background": "#db466b",
+            "button.background": "#e047cc",
+            "gitDecoration.untrackedResourceForeground": "#a7a1d8",
+            "gitDecoration.addedResourceForeground": "#9dd396",
+            "editorSuggestWidget.selectedBackground": "#1d1227",
+            "tab.activeBorder": "#837acc",
+            "list.errorForeground": "#ff5353",
+            "tab.activeModifiedBorder": "#d081fd",
+        }
+    }
+}
