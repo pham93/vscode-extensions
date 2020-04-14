@@ -11,10 +11,6 @@
             "after": ["<Esc>"]
         }
     ],
-    "beautify.config": {
-        "space_after_anon_function": true,
-        "brace_style": "collapse,preserve-inline",
-    },
     "editor.fontLigatures": true,
     "editor.fontFamily": "'Operator Mono'",
     "editor.renderIndentGuides": false,
@@ -48,18 +44,10 @@
     "sync.gist": "",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.codeLens": false,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 4,
-    "[html]": {
-        "editor.defaultFormatter": "stringham.angular-template-formatter"
-    },
-    "scssFormatter.tabWidth": 4,
+    "scssFormatter.tabWidth": 2,
     "workbench.colorCustomizations": {
         "[Horizon Bold]": {
             "activityBar.foreground": "#c892fa",
